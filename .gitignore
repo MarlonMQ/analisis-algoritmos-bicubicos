@@ -1,0 +1,17 @@
+# === Archivos Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Archivos del sistema ===
+.DS_Store
+Thumbs.db
+
+# === Datasets y resultados ===
+data/scaled/
+*.zip
+*.tar.gz
+
+# === Notebooks con salidas pesadas (opcional) ===
+*.ipynb_checkpoints
